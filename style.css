@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    background-color: #141414;
+    font-family: Poppins, sans-serif;
+    color: white;
+   
+}
+
+/* contém a img do black friday */
+
+.img-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  rgb(32, 32, 32);
+}
+
+/* div com o copy e o form*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1700px;
+    max-width: 1200px;
+    height: 650px;
+    border-radius: 50px;
+}
+
+.copy-texto{
+    display:flex;
+    flex-direction: column;    
+    }
+
+h1{
+    padding: 0 60px;
+    font-size: 2.5rem; 
+    font-weight: 900;
+}
+
+.texto1, .texto2{
+    color: white;
+    font-weight: 100;
+    font-size: 0.90rem;
+    padding: 0 60px;
+}
+
+strong{
+    color: orangered;
+    font-weight: 600;
+}
+
+.flex-container{
+    background-color: #252525;
+    width: 100%;
+    justify-content: center;
+}
+
+.void{
+    height: -webkit-fill-available;
+}
+
+form{
+    height: -webkit-fill-available;
+    display: grid; 
+    align-content: center;
+    background-color: rgb(50, 51, 51);
+    padding: 0 50px;
+}
+
+label{
+    margin: 20px 0;
+}
+
+input{
+    border-radius: 2.5px;
+    min-width: 60%;
+    height:30px;
+}
+
+button{
+    border: 0;
+    border-radius: 2.5px;
+    background-color: rgb(233, 35, 0);
+    width: 120px;
+    height: 35px;
+    font-weight: 900;
+    color: rgb(236, 236, 88); 
+    margin-top: 40px;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(255, 113, 61);
+    color: white;
+}
+
